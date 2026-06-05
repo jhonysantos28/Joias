@@ -1,2 +1,2 @@
 # Joias
-Sarah Joias
+Divina Joias
