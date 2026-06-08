@@ -1,0 +1,393 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Archivo:ital,wght@0,100..900;1,100..900&family=Playwrite+NZ+Basic:wght@100..400&family=Rakkas&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+    body{
+    background-color: #0B1D1A;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    opacity:0.7;
+}
+.logo {
+    color: white;
+    font-size: 25px;
+    font-family: 'Agbalumo', cursive;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+}
+ nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Archivo', sans-serif;
+    background-color: #0B1D1A;
+    color: white;
+    height: 10vh;
+
+}
+
+
+.banner {
+    position: relative;
+    width: 100%;
+    
+
+}
+
+.banner img {
+    width: 100%;
+    height: 90vh;
+    
+    display: block;
+}
+
+.banner button {
+    position: absolute;
+    top: 60%;
+    right: 60%;
+    transform: translate(-50%, -50%);
+       background: #D4AF37;
+    color: #0B1D1A;
+      padding: 15px 30px;
+    font-size: 1.2rem;
+     
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.banner button:hover {
+    background: #F4D06F;
+}
+
+
+.section-txt {
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+    color: #D4AF37;
+    font-family: 'Playwrite NZ Basic', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.section-txt p{
+    margin:6px;
+    color: #D4AF37;
+ }
+
+
+.imagens img{
+
+  width: 220px;
+  max-width: 100%;
+  height: 70%;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+
+.imagens {
+ display: flex;
+ flex-wrap: wrap;
+justify-content: center;
+  gap: 50px;
+  margin: 90px;
+  
+    
+}
+
+
+.imagens :nth-child(2){
+    transition-delay: 400ms;
+}
+.imagens p{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #D4AF37;
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+
+
+
+.texto-elegancia  {
+    display: flex;
+    background: linear-gradient(175deg, #D4AF37, #848483, #161512);
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 60vh;
+    gap: 20px;
+     
+    
+    
+}
+
+.card-texto h4 {
+      color: #D4AF37;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    text-align: center;
+}
+.card-texto p{
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #F5F5F5;
+    text-align: center;
+}
+.card-texto{
+    width: 500px;
+    
+}
+
+
+.texto-elegancia img {
+display: flex;
+width: 600px;
+height: 60vh;
+padding: 8px;
+border-radius: 100px 40px 100px ;
+
+ 
+}
+
+.img-texto{
+     transition: opacity 0.5s ease;
+}
+
+.card-brinco{
+    padding: 5px;
+    border-radius: 10px;
+      background: #0B1D1A;
+    color: #FFFFFF;
+    border: 1px solid #74632d;
+}
+
+.container-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+     
+}
+
+
+
+.container-cards img{
+    width: 280px;
+    height: 300px;
+     border-radius: 10px;
+    
+}
+#produtos h2{
+    align-items:center ;
+    text-align: center;
+    padding: 30px;
+    margin-top: 25px;
+    font-size: 40px;
+    color: #D4AF37;
+}
+.galeria {
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+.galeria h2{
+    color: #D4AF37;
+    font-size: 2.5rem;
+    padding: 40px;
+    
+
+}
+
+.btn-comprar{
+    display: inline-block;
+    background: #D4AF37;
+    color: white;
+    padding: 12px 34px;
+    margin-top: 10px;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    
+    font-weight: bold;
+    transition: 1.3s;
+    cursor: pointer;
+    
+}
+
+.btn-comprar:hover{
+    background: #F4D06F;
+    color: #0B1D1A;
+}
+
+
+span{
+    display: block;
+    color:#fcfbf9;
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    
+}
+b{
+     color: #F4D06F; 
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+        gap: 40px;
+       margin-top: 80px;
+        background: linear-gradient(180deg, #896a06, #848483, #161512);
+        width: 100%;
+}
+
+.section-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 250px;
+    border: 1px solid transparent;
+    padding: 20px;
+    gap: 20px;
+     
+    
+}
+   
+
+.section-card h4{
+    font-size: 1.7rem;
+    color: black;
+    
+}
+.section-card p{
+    color: white;
+    font-size: 1.2rem;
+}
+.whatsapp-fixo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background: #25D366;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,.3);
+    z-index: 1000;
+}
+
+.whatsapp-fixo:hover {
+    transform: scale(1.1);
+}
+footer {
+    background: #111;
+    color: #fff;
+    padding: 40px 20px 20px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-col h3,
+.footer-col h4 {
+    color: #D4AF37;
+    margin-bottom: 15px;
+}
+
+.footer-col p {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #333;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.nav-list ul {
+    display: flex;
+    
+}
+nav ul{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.nav-list li{
+    letter-spacing: 4px ;
+    margin-left: 32px;
+    list-style: none; 
+  
+}
+
+.mobile-menu{
+    display: none;
+
+}
+
+.mobile-menu div{
+      width: 32px;
+      height: 3px;
+      background: white ;
+      margin: 8px;
+}
+
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-col {
+        min-width: 100%;
+    }
+}
