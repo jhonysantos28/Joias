@@ -36,7 +36,6 @@ a:hover{
     justify-content: space-around;
     align-items: center;
     font-family: 'Archivo', sans-serif;
-    background-color: #0B1D1A;
     color: white;
     height: 10vh;
 
@@ -175,27 +174,62 @@ border-radius: 100px 40px 100px ;
      transition: opacity 0.5s ease;
 }
 
-.card-brinco{
-    padding: 5px;
+.card-brinco {
+    min-width: 300px;
+    padding-bottom: 8px;
     border-radius: 10px;
-      background: #0B1D1A;
+    background: #0B1D1A;
     color: #FFFFFF;
     border: 1px solid #74632d;
 }
 
-.container-cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-     
+.card-brinco h4 {
+    font-size: 25px;
+    padding: 7px;
 }
 
+.card-brinco p {
+    font-size: 20px;
+    padding: 6px;
+}
 
+.container-cards{
+    display: flex;
+    flex-wrap: nowrap;
+    
+    gap: 40px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    
+}
+.carrossel{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn-scroll{
+    width: 50px;
+    height: 50px;
+
+    border: none;
+    border-radius: 40%;
+
+    cursor: pointer;
+
+    font-size: 20px;
+}
+#produtos h3{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    padding: 25px;
+    color: white;
+}
 
 .container-cards img{
-    width: 280px;
+    width: 300px;
     height: 300px;
      border-radius: 10px;
     
@@ -203,11 +237,12 @@ border-radius: 100px 40px 100px ;
 #produtos h2{
     align-items:center ;
     text-align: center;
-    padding: 30px;
-    margin-top: 25px;
+    padding: 60px;
+    margin-top: 35px;
     font-size: 40px;
     color: #D4AF37;
 }
+
 .galeria {
     display:flex;
     text-align: center;
@@ -224,15 +259,15 @@ border-radius: 100px 40px 100px ;
 }
 
 .btn-comprar{
-    display: inline-block;
+    display: flex;
     background: #D4AF37;
     color: white;
     padding: 12px 34px;
-    margin-top: 10px;
+    margin: 3px;
+    font-size: 14px;
     text-decoration: none;
     border: none;
     border-radius: 8px;
-    
     font-weight: bold;
     transition: 1.3s;
     cursor: pointer;
@@ -243,6 +278,7 @@ border-radius: 100px 40px 100px ;
     background: #F4D06F;
     color: #0B1D1A;
 }
+
 
 
 span{
@@ -359,6 +395,7 @@ footer {
 nav ul{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
+    font-size: 18px;
 }
 
 .nav-list li{

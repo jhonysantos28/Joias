@@ -31,6 +31,26 @@ setInterval(() => {
     });
 }, 3000);
 
+const carrosseis = document.querySelectorAll(".carrossel");
+
+carrosseis.forEach(carrossel => {
+
+    const cards = carrossel.querySelector(".container-cards");
+
+    const esquerda = carrossel.querySelector(".esquerda");
+
+    const direita = carrossel.querySelector(".direita");
+
+    direita.addEventListener("click", () => {
+        cards.scrollLeft += 340;
+    });
+
+    esquerda.addEventListener("click", () => {
+        cards.scrollLeft -= 340;
+    });
+
+});
+
  const myObserver = new IntersectionObserver((entries) => { 
     entries.forEach((entry) => {
         if(entry.isIntersecting){
