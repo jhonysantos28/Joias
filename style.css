@@ -105,7 +105,7 @@ a:hover{
  display: flex;
  flex-wrap: wrap;
 justify-content: center;
-  gap: 50px;
+  gap: 40px;
   margin: 90px;
   
     
@@ -129,12 +129,13 @@ justify-content: center;
 
 .texto-elegancia  {
     display: flex;
-    background: linear-gradient(175deg, #D4AF37, #848483, #161512);
+    background: linear-gradient(175deg, #947b29, #848483, #161512);
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     height: 60vh;
     gap: 20px;
+    
      
     
     
@@ -142,30 +143,30 @@ justify-content: center;
 
 .card-texto h4 {
       color: #D4AF37;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 800;
     text-align: center;
 }
 .card-texto p{
-    font-size: 1rem;
+    font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
-    color: #F5F5F5;
+    color: #faf5f5;
     text-align: center;
 }
 .card-texto{
-    width: 500px;
+    width: 400px;
     
 }
 
 
 .texto-elegancia img {
 display: flex;
-width: 600px;
-height: 60vh;
-padding: 8px;
-border-radius: 100px 40px 100px ;
+width: 500px;
+height: 55vh;
+padding: 5px;
+border-radius: 100px 30px 100px ;
 
  
 }
@@ -196,7 +197,7 @@ border-radius: 100px 40px 100px ;
 .container-cards{
     display: flex;
     flex-wrap: nowrap;
-    
+    align-items: center;
     gap: 40px;
     overflow: hidden;
     scroll-behavior: smooth;
@@ -209,10 +210,11 @@ border-radius: 100px 40px 100px ;
 }
 
 .btn-scroll{
-    width: 50px;
-    height: 50px;
-
+    width: 40px;
+    height: 40px;
+    background-color: #e7bc2c;
     border: none;
+    margin: 8px;
     border-radius: 40%;
 
     cursor: pointer;
@@ -224,7 +226,7 @@ border-radius: 100px 40px 100px ;
     align-items: center;
     justify-content: center;
     font-size: 35px;
-    padding: 25px;
+    padding: 30px;
     color: white;
 }
 
@@ -237,7 +239,7 @@ border-radius: 100px 40px 100px ;
 #produtos h2{
     align-items:center ;
     text-align: center;
-    padding: 60px;
+    padding: 25px;
     margin-top: 35px;
     font-size: 40px;
     color: #D4AF37;

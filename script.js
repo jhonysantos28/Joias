@@ -17,7 +17,7 @@ const banners  = document.querySelectorAll('.avatar')
 const listaImagens = [
     "img/images.jpeg",
     "img/colar.webp",
-    "img/fundo.jpeg"
+    
 ];
 
 let indice = 0;
@@ -29,7 +29,7 @@ setInterval(() => {
         banner.src = listaImagens[indice]
         banner.style.border = "4px solid yellow";
     });
-}, 3000);
+}, 4000);
 
 const carrosseis = document.querySelectorAll(".carrossel");
 
