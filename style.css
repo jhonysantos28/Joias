@@ -302,9 +302,9 @@ b{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-        gap: 40px;
+        gap: 60px;
        margin-top: 80px;
-        background: linear-gradient(180deg, #896a06, #848483, #161512);
+        background: linear-gradient(180deg, #ba9518, #5f5f5e, #2c2a26);
         width: 100%;
 }
 
