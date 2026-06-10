@@ -27,7 +27,7 @@ setInterval(() => {
 
     banners.forEach((banner) => {
         banner.src = listaImagens[indice]
-        banner.style.border = "4px solid yellow";
+        banner.style.border = "2px solid yellow";
     });
 }, 4000);
 
