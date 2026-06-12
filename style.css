@@ -353,6 +353,54 @@ b{
 .whatsapp-fixo:hover {
     transform: scale(1.1);
 }
+
+.depoimentos{
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.depoimentos h2{
+    color: #D4AF37;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.container-depoimentos{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card-depoimento{
+    background-color: #132824;
+    width: 320px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.card-depoimento:hover{
+    transform: translateY(-10px);
+}
+
+.card-depoimento p{
+    color: #fff;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.card-depoimento h4{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.card-depoimento span{
+    color: #D4AF37;
+    font-weight: bold;
+}
 footer {
     background: #111;
     color: #fff;
@@ -410,15 +458,16 @@ nav ul{
 
 .mobile-menu{
     display: none;
-
+    cursor: pointer;
 }
 
-.mobile-menu div{
-      width: 32px;
-      height: 3px;
-      background: white ;
-      margin: 8px;
+
+.mobile-menu i{
+    color: white;
+    font-size: 30px;
 }
+
+
 
 
 @media (max-width: 768px) {
@@ -430,4 +479,32 @@ nav ul{
     .footer-col {
         min-width: 100%;
     }
-}
+
+    .mobile-menu{
+        display: block;
+    }
+
+    .nav-list ul{
+        display: none;
+    }
+
+    .nav-list ul.active{
+           display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #0B1D1A;
+    padding: 20px 0;
+    gap: 20px;
+    text-align: center;
+    z-index: 999;
+    }
+
+ }
+    
+     
+
+    
+ 

@@ -1,4 +1,5 @@
 
+
 gsap.registerPlugin(ScrollTrigger);
 gsap.utils.toArray(".animar").forEach((elemento) => {
     gsap.from(elemento, {
@@ -10,6 +11,15 @@ gsap.utils.toArray(".animar").forEach((elemento) => {
             start: "top 70%",
         }
     });
+});
+
+const mobileMenu = document.querySelector('.mobile-menu');
+const menu = document.querySelector('.nav-list ul');
+
+mobileMenu.addEventListener('click', () => {
+    menu.classList.toggle('active');
+    console.log(menu.classList);
+
 });
 
 const banners  = document.querySelectorAll('.avatar')
@@ -86,7 +96,7 @@ botoes.forEach(botao => {
 📌 Modelo: ${modelo}
 💰 Preço: ${preco}`;
 
-        const numero = "5521000000000"; // seu número
+        const numero = "5521000000000"; 
 
         const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
 
