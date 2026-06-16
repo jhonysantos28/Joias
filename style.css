@@ -299,10 +299,10 @@ b{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-        gap: 60px;
-       margin-top: 80px;
-        background: linear-gradient(180deg, #ba9518, #5f5f5e, #2c2a26);
-        width: 100%;
+    margin-top: 80px;
+    background: linear-gradient(180deg, #ba9518, #5f5f5e, #373530);
+    width: 100%;
+    gap: 80px;
 }
 
 .section-card {
@@ -313,21 +313,21 @@ b{
     width: 300px;
     height: 250px;
     border: 1px solid transparent;
-    padding: 20px;
-    gap: 20px;
+    padding: 10px;
+    
      
     
 }
    
 
 .section-card h4{
-    font-size: 1.7rem;
+    font-size: 2rem;
     color: black;
     
 }
 .section-card p{
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 .whatsapp-fixo {
     position: fixed;
@@ -577,10 +577,18 @@ nav ul{
         padding-bottom: 25px;
         
     }
-    .section animar{
-        padding: 5px;
+
+    .section{
+        gap: 15px;
+    }
+    .section-card{
+        height: 180px;
         
         
+        
+    }
+    .section-card h4{
+        font-size: 32px;
     }
       .btn-scroll {
         
