@@ -3,12 +3,12 @@
 gsap.registerPlugin(ScrollTrigger);
 gsap.utils.toArray(".animar").forEach((elemento) => {
     gsap.from(elemento, {
-        y: 60,
+        y: 70,
         opacity: 0,
         duration: 1,
         scrollTrigger: {
             trigger: elemento,
-            start: "top 70%",
+            start: "top 80%",
         }
     });
 });
@@ -39,7 +39,7 @@ setInterval(() => {
         banner.src = listaImagens[indice]
         banner.style.border = "2px solid yellow";
     });
-}, 4000);
+}, 5000);
 
 const carrosseis = document.querySelectorAll(".carrossel");
 
