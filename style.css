@@ -8,10 +8,8 @@
     
 }
 
-
     body{
     background-color: #0B1D1A;
-
 }
 
 a{
@@ -63,7 +61,7 @@ a:hover{
     transform: translate(-50%, -50%);
        background: #D4AF37;
     color: #0B1D1A;
-      padding: 10px 70px;
+      padding: 15px 70px;
     font-size: 2rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
     border: none;
@@ -75,6 +73,11 @@ a:hover{
 
 .banner button:hover {
     background: #F4D06F;
+}
+
+.banner button i{
+    font-size: 40px;
+    margin-left: 8px;
 }
 
 
@@ -359,7 +362,7 @@ b{
 
 .depoimentos h2{
     color: #D4AF37;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     margin-bottom: 50px;
 }
 
@@ -372,7 +375,7 @@ b{
 
 .card-depoimento{
     background-color: #132824;
-    width: 320px;
+    width: 380px;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.3);
@@ -506,8 +509,13 @@ nav ul{
      .banner button{
         font-size: 12px;
         width: 35%;
-        padding: 8px;
+        padding: 10px;
         margin-top: 8px;
+     }
+
+     .banner button i{
+        font-size: 18px;
+        margin: 2px;
      }
 
      .section-txt {
