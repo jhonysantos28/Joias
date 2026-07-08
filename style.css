@@ -38,42 +38,59 @@ a:hover{
     height: 10vh;
 
 }
-
+main{
+    width: 100%;
+}
 
 .banner {
-    position: relative;
     width: 100%;
-    
+    height: 95vh;
+    overflow: hidden;
+    position: relative;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner img {
     width: 100%;
-    height: 90vh;
-    
+    height: 100%;
+    object-fit: cover;
+    object-position: center right;
     display: block;
 }
 
+
 .banner button {
     position: absolute;
-    top: 60%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-       background: #D4AF37;
-    color: #0B1D1A;
-      padding: 15px 70px;
-    font-size: 2rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: 0.3s;
-    
-}
+    display: inline-flex;
+    align-items: center;
+    right: 72%;
+    top: 65%;
+    gap:18px;
+    padding:18px 40px;  
+    color:#F3D089;
+    text-decoration:none;
+    font-size:1.4rem;
+    font-weight:600;
+    letter-spacing:1px;
 
-.banner button:hover {
-    background: #F4D06F;
-}
+    border:2px solid rgba(223,184,95,.7);
+    border-radius:14px;
+
+    background:linear-gradient(
+    180deg,
+    rgba(30,30,30,.95),
+    rgba(10,10,10,.95));
+    overflow:hidden;
+    transition:.45s;
+
+    box-shadow:
+    inset 0 0 10px rgba(255,215,120,.08),
+    0 8px 25px rgba(0,0,0,.35);
+     }
+
 
 .banner button i{
     font-size: 40px;
@@ -149,35 +166,33 @@ height: 40vh;
     text-align: center;
 }
 .card-texto p{
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
     color: #faf5f5;
     text-align: center;
 }
 .card-texto{
-    width: 400px;
+    width: 500px;
     
 }
 
 
 .texto-elegancia img {
-display: flex;
-width: 700px;
-height: 50vh;
-padding: 5px;
-border-radius: 100px 30px 100px ;
+
+   display: flex;
+   width: 700px;
+   height: 100%;
+   padding: 5px;
+   border-radius: 100px;
 
  
 }
 
-.img-texto{
-     transition: opacity 0.5s ease;
-}
 
 .card-brinco {
     min-width: 300px;
-    padding-bottom: 8px;
+    padding-bottom: 5px;
     border-radius: 10px;
     background: #0B1D1A;
     color: #FFFFFF;
@@ -198,7 +213,8 @@ border-radius: 100px 30px 100px ;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    gap: 40px;
+    gap: 15px;
+    margin: 20px;
     overflow: hidden;
     scroll-behavior: smooth;
     
@@ -206,7 +222,7 @@ border-radius: 100px 30px 100px ;
 .carrossel{
     display: flex;
     align-items: center;
-    gap: 15px;
+
 }
 
 .btn-scroll{
@@ -214,12 +230,10 @@ border-radius: 100px 30px 100px ;
     height: 40px;
     background-color: #e7bc2c;
     border: none;
-    margin: 8px;
-    border-radius: 40%;
-
+    margin: 15px;
+    border-radius: 50% ;
     cursor: pointer;
-
-    font-size: 20px;
+    font-size: 22px;
 }
 #produtos h3{
     text-align: center;
@@ -469,6 +483,8 @@ nav ul{
 }
 
 
+
+
 @media (max-width: 768px) {
    
     .mobile-menu{
@@ -502,23 +518,31 @@ nav ul{
         
     }
 
+    .banner{
+        height: 50vh;
+        
+    }
+
     .banner img{
-        height: 60vh;
+        height: 100%;
         width: 100%;
-        object-fit: cover;
+        
+        object-position: 20% center;
+    
     }
      .banner button{
-        font-size: 12px;
-        width: 35%;
+        font-size: 16px;
+        width: 40%;
         padding: 10px;
         margin-top: 8px;
      }
 
      .banner button i{
-        font-size: 18px;
+        font-size: 19px;
         margin: 2px;
      }
 
+    
      .section-txt {
         font-size: large;
      }
@@ -572,17 +596,23 @@ nav ul{
 
     .texto-elegancia{
         display: flex;
+        align-items: center;
+        justify-content: center;
          flex-direction: column;
         
     }
      .texto-elegancia p {
         font-size: 15px;
-        padding: 20px;
+        width: 90%;
+        padding: 10px;
+        
+       text-align: center;
+      
         font-family: Georgia, 'Times New Roman', Times, serif;
      }
 
     .texto-elegancia img{
-        max-width: 80%;
+        max-width: 90%;
         height: 40%;
         border-radius: 30px;
     }
@@ -618,7 +648,7 @@ nav ul{
     .footer-col {
         min-width: 100%;
     }
-   
+ 
  }
  
  
